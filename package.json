@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "default": "index.html",
+  "targets": {
+    "main": false
+  },
   "dependencies": {
     "core-js": "^3.26.0",
     "parcel": "^2.7.0",
