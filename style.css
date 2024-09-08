@@ -147,7 +147,7 @@ label {
   }
 
   * {
-    font-size: 0.8rem !important;
+    font-size: 0.45rem !important;
   }
 
   .message {
@@ -165,7 +165,7 @@ label {
   .number {
     font-size: 7rem;
     width: 10rem;
-    padding: 2rem 0rem;
+    padding: 0.8rem 0rem;
   }
 
   .guess {
@@ -195,6 +195,12 @@ label {
   }
 }
 
+@media (min-width: 600px) {
+  * {
+    font-size: 0.8rem !important;
+  }
+}
+
 @media (min-width: 1200px) {
   .left,
   .right {
@@ -202,7 +208,7 @@ label {
   }
 
   * {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
   #createdby {
     font-size: 1.4rem;
