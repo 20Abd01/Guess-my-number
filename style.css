@@ -42,17 +42,23 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-direction: column; /* Default to column layout on smaller screens */
+}
+
+.left,
+.right {
+  width: 100%;
+  max-width: 52rem;
+  padding: 0 1rem; /* Add some padding to avoid content sticking to edges */
 }
 
 .left {
-  width: 52rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .right {
-  width: 52rem;
   font-size: 2rem;
 }
 
@@ -132,5 +138,70 @@ h3 {
   margin-bottom: 2rem;
 }
 label {
-  font-size: 15px;
+  font-size: 1.5rem;
+}
+
+/* Responsive Styles */
+@media (min-width: 300px) {
+  main {
+    flex-direction: row;
+  }
+
+  .message {
+    margin-bottom: 3rem;
+  }
+  .right {
+    font-size: 1.4rem;
+    width: 53% !important;
+  }
+
+  .left {
+    width: 40%;
+  }
+
+  .number {
+    font-size: 7rem;
+  }
+
+  .guess {
+    width: 16rem;
+    font-size: 1.4rem;
+  }
+
+  #createdby {
+    top: 32% !important;
+  }
+
+  .between {
+    top: 38% !important;
+    right: 8rem;
+  }
+
+  h1 {
+    top: 60%;
+  }
+
+  .again {
+    top: 240%;
+  }
+
+  .check {
+    margin-left: 32px !important;
+  }
+}
+
+@media (min-width: 900px) {
+  .left,
+  .right {
+    width: 40%;
+  }
+
+  .number {
+    font-size: 8rem;
+  }
+
+  .guess {
+    width: 18rem;
+    font-size: 3.5rem;
+  }
 }
