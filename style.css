@@ -143,6 +143,36 @@ label {
     font-size: 0.5rem !important;
   }
 
+  .message {
+    margin-bottom: 0rem;
+  }
+  .right {
+    margin-top: 30px;
+  }
+
+  .left {
+    width: 50%;
+    margin-top: 30px;
+  }
+
+  .number {
+    font-size: 7rem;
+    width: 10rem;
+    padding: 0.8rem 0rem;
+  }
+
+  .guess {
+    width: 9rem;
+  }
+
+  #createdby {
+    top: 2rem !important;
+  }
+
+  h1 {
+    top: 40%;
+  }
+
   .buttons-container {
     display: flex;
     gap: 5px;
