@@ -1,6 +1,4 @@
 'use strict';
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
 
 // DOM Manipulattion
 console.log(document.querySelector('.message').textContent); // print the element have className message
@@ -50,7 +48,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '👏🎉 Correct Number !';
     document.querySelector('.check').disabled = true;
     document.querySelector('body').style.backgroundColor = '#60b347';
-    document.querySelector('.number').style.width = '30rem';
+    // document.querySelector('.number').style.width = '30rem';
     document.querySelector('.number').textContent = secretNumber;
     document.getElementById('7').disabled = true;
 
