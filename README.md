@@ -7,13 +7,13 @@ A fun number guessing game built using vanilla JavaScript, HTML, and CSS. The go
 - Feedback for each guess ("Too High", "Too Low", "Correct").
 - Track high score across multiple games.
 - Reset functionality to play again.
-- Simple UI and responsive design.
+- Simple UI.
 
 ## Demo
 
 Check out the live version of the game on Netlify:
 
-[**Play Guess My Number!**](https://abuhoney-guess-game.netlify.app/)
+[**Play Guess My Number!**](https://abd-guess-my-number.netlify.app/)
 
 ## Installation
 
