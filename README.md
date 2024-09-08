@@ -48,6 +48,6 @@ To run this project locally:
 
 ## Author
 
-Created by **Abdalrahman AlYacoub** – [LinkedIn](https://www.linkedin.com/in/abdalrahman-alyacoub).
+Created by **Abdalrahman AlYacoub** – [LinkedIn](https://www.linkedin.com/in/abdalrahman-al-yacoub-1642a3203/).
 
 Feel free to contribute or report any issues via GitHub!
