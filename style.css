@@ -186,6 +186,10 @@ label {
     top: 0;
     left: 0;
   }
+  main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 /* Responsive Styles */
 @media (min-width: 300px) {
