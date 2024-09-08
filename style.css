@@ -49,7 +49,7 @@ main {
 .right {
   width: 100%;
   max-width: 52rem;
-  padding: 0 1rem; /* Add some padding to avoid content sticking to edges */
+  /* Add some padding to avoid content sticking to edges */
 }
 
 .left {
@@ -157,11 +157,11 @@ label {
     margin-bottom: 0rem;
   }
   .right {
-    width: 53% !important;
+    width: 50% !important;
   }
 
   .left {
-    width: 40%;
+    width: 50%;
   }
 
   .number {
@@ -187,6 +187,7 @@ label {
   .buttons-container {
     display: flex;
     gap: 5px;
+    margin-inline-start: 30px;
   }
 
   .btn {
