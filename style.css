@@ -170,7 +170,10 @@ label {
   }
 
   h1 {
-    top: 40%;
+    top: 20% !important;
+  }
+  p.between {
+    top: 25% !important;
   }
 
   .buttons-container {
