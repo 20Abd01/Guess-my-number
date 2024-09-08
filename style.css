@@ -45,13 +45,6 @@ main {
   flex-direction: column; /* Default to column layout on smaller screens */
 }
 
-.left,
-.right {
-  width: 100%;
-  max-width: 52rem;
-  /* Add some padding to avoid content sticking to edges */
-}
-
 .left {
   display: flex;
   flex-direction: column;
@@ -59,6 +52,9 @@ main {
 }
 
 .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 2rem;
 }
 
@@ -146,7 +142,8 @@ label {
 /* Responsive Styles */
 @media (min-width: 300px) {
   main {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   * {
@@ -157,15 +154,18 @@ label {
     margin-bottom: 0rem;
   }
   .right {
-    width: 50% !important;
+    margin-top: 10px;
   }
 
   .left {
     width: 50%;
+    margin-top: 30px;
   }
 
   .number {
     font-size: 7rem;
+    width: 10rem;
+    padding: 2rem 0rem;
   }
 
   .guess {
@@ -174,10 +174,6 @@ label {
 
   #createdby {
     top: 2rem !important;
-    font-size: 0.8rem;
-  }
-
-  .between {
   }
 
   h1 {
@@ -187,7 +183,6 @@ label {
   .buttons-container {
     display: flex;
     gap: 5px;
-    margin-inline-start: 30px;
   }
 
   .btn {
@@ -198,13 +193,9 @@ label {
     top: 0;
     left: 0;
   }
-
-  .check {
-    /* margin-left: 32px !important; */
-  }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .left,
   .right {
     width: 40%;
@@ -230,5 +221,8 @@ label {
   .guess {
     width: 18rem;
     font-size: 3.5rem;
+  }
+  main {
+    flex-direction: row;
   }
 }
